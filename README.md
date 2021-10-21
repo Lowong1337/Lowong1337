@@ -1,9 +1,4 @@
 
-### Professional java paster, idiot man ?!?!!!!?
-### sex ?
-
-- Website !??!?!!!: https://zirus69.gq/ 
-
 <p align="center">
   <img alt="Visitors" src="https://komarev.com/ghpvc/?username=zirus69&style=flat&labelColor=black&logo=github&label=Profile+Views&color=0d8ce0"/>
 </p>
