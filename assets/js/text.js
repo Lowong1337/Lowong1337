@@ -19,10 +19,9 @@ $(function() {
     window.setInterval(doInverseSpinZeroPitch, 150);
 });
 $(function() {
-  $(".typed").typed({
-      strings: ["zzzzzzzz... xd", "Professional java paster"
-    , ":sunglasses:", "everything is fine", ":smirk:", "well...", "...", "...", 
-  "I love Ngoc's ", "Nothing to say", "-loop"],
+  $(".baby").typed({
+      strings: ["imagine", "you are looking", "for a man", "who describing about his life", "its gotta be me",
+    "imagine", "you are looking for a man", "thats not me!", "that would be nice", "im not a bad guy"],
       typeSpeed: 130,
       loop: true,
       cursorChar: "|",

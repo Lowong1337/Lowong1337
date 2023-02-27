@@ -1,7 +1,7 @@
 :root {
     --name: Zirus;
-    --text-color: rgb(153, 238, 209);
-    --back-color: rgba(97, 171, 231, 0.336);
+    --text-color: rgb(255, 255, 255);
+    --back-color: rgba(255, 255, 255, 0.479);
     --over-color: #8781c2;
     --popup-text-color: #d3d2d2;
     --nicetry-text-color: rgb(255, 255, 255);
