@@ -4,6 +4,10 @@
 </p>
 
 <p align="center">
+  <a href= "https://lowong.space"><img src="https://img.shields.io/badge/-Contact-green">
+</p>
+
+<p align="center">
   <img src="https://discord.c99.nl/widget/theme-1/951474316560707614.png" />
 </p>
 
