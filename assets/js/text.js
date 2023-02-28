@@ -16,13 +16,13 @@ $(function() {
         document.title = loadTitle + animSeq[0];
         animIndex++
     }
-    window.setInterval(doInverseSpinZeroPitch, 150);
+    window.setInterval(doInverseSpinZeroPitch, 160);
 });
 $(function() {
   $(".baby").typed({
       strings: ["imagine", "you are looking", "for a man", "who describing about his life", "its gotta be me",
     "imagine", "you are looking for a man", "thats not me!", "that would be nice", "im not a bad guy"],
-      typeSpeed: 130,
+      typeSpeed: 100,
       loop: true,
       cursorChar: "|",
   });
