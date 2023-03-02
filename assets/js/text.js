@@ -20,8 +20,12 @@ $(function() {
 });
 $(function() {
   $(".baby").typed({
-      strings: ["imagine", "you are looking", "for a man", "who describing about his life", "its gotta be me",
-    "imagine", "you are looking for a man", "thats not me!", "that would be nice", "im not a bad guy"],
+      strings: [
+        "...",
+        "investing into your hobbies", "keep your eyes open", "continuously learn and grow", "take care of your health"
+        , "...", 
+        "thats how life goes"
+      ],
       typeSpeed: 100,
       loop: true,
       cursorChar: "|",
