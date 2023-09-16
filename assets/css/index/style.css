@@ -10,57 +10,45 @@ body {
     font: 'Gotham Pro';
 }
 
-.typed {
-    color: var(--text-color);
-    opacity: 0.8;
-}
-
-.typed::after {
-	content: '|';
-	display: inline;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
-}
-
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-.typed-cursor{
-   opacity: 0;
-	display: none;
-}
-
 .center {
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .info {
+    height: 190px;
     min-width: 300px;
     width: 300px;
     display: flex;
     background: none;
     padding: 35px;
     color: var(--text-color);
-    border-radius: 16px; 
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -khtml-border-radius: 16px;
+    border-radius: 25px; 
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -khtml-border-radius: 25px;
+
+    /* The background */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    transform: translateY(20px);
+
+    animation: border-color-animation 1s alternate infinite;
+    border: 2px solid white;
 }
+
+@keyframes border-color-animation {
+    0% {
+        border-color: rgba(223, 194, 247, 0.733);
+    }
+    100% {
+        border-color: rgb(70, 68, 123);
+    }
+}
+
 .buttons {
     min-width: 300px;
     width: 300px;
@@ -70,13 +58,16 @@ body {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
+
+    transform: translateY(-75px);
 }
+
 a.link {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
     padding: 8px 20px; 
     margin: 4px;
-    background: var(--back-color);
+    background: rgba(160, 160, 176, 0.62);
     color: #fff;
     cursor: pointer;
     border-radius: 8px; 
@@ -95,13 +86,16 @@ a.link {
     display: inline-flex;
     justify-content: center;
     align-items: flex-end;
+
+    transform: translateY(-50px);
 }
 
 .avatar {
     width: 10em;
     height: 10em;
-    border-radius: 4em;
-    border: #353030 solid 2px;
+    border-radius: 3.5em;
+    border: 2px solid rgba(223, 194, 247, 0.574);
+    animation: border-color-animation 2s alternate infinite
 }
 
 .pizdec {
@@ -112,7 +106,7 @@ a.link {
 
 a.link:hover,
 button:hover {
-    background: rgba(238, 213, 255, 0.745);
+    background: rgba(193, 172, 232, 0.491);
     color: #ffffff;
 }
 
@@ -147,6 +141,12 @@ h2 {
     transition: .2ms;
     -webkit-transition: .2ms;
     -moz-transition: .2ms;
+
+    transform: translateY(-60px);
+}
+
+p {
+    transform: translateY(-75px);
 }
 
 input[type=button] {
@@ -164,38 +164,4 @@ input[type=button] {
     margin-top: 5px;
     margin-left: 5px;
     margin-bottom: 2px;
-}
-
-input[type=button]:hover {
-    background: hsla(212, 50%, 52%, 0.774)
-}
-
-input[type=button]:active, input[type=button]:focus {
-    outline: none;
-}
-
-input[type=button]::-moz-focus-inner {
-      border: 0;
-}
-
-input[type=button]::-webkit-focus-inner {
-    border: 0;
-}
-
-.btn {
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    -moz-transition: 0.2s;
-    transition: 0.2s;
-    font-family: 'Gotham Pro';
-    font: 'Gotham Pro';
-}
-
-a.nolink:active,
-a.nolink:hover,
-a.nolink {
-    text-decoration: none;
-    color: #666;
-    outline: none;
-    border: none;
 }
