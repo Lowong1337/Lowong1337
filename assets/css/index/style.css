@@ -3,7 +3,7 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    background: var(--back-gif) center;
+    background: linear-gradient(20deg, #3e2e6d, #7d6692) center;
     background-size: cover;
     display: flex;
     font-family: 'Gotham Pro';
