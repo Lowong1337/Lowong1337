@@ -26,8 +26,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   const strings = [
-      "she likes winter melon tea",
-      "❤️❤️❤️❤️❤️"
+      "Admin TopAlts @ discord.gg/xEaY4kEJNW",
+      "Du ma im back guys"
   ];
 
   function shuffleArray(array) {

@@ -47,7 +47,7 @@ body {
 }
 
 .info {
-    height: 120px;
+    height: 100px;
     min-width: 300px;
     width: 300px;
     display: flex;
@@ -133,7 +133,7 @@ body {
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
 
-    transform: translateY(-95px);
+    transform: translateY(-84px);
 }
 
 a.link {
@@ -161,7 +161,7 @@ a.link {
     justify-content: center;
     align-items: flex-end;
 
-    transform: translateY(-76px);
+    transform: translateY(-86px);
 }
 
 .avatar {
