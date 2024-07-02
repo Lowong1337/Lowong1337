@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   const strings = [
-      "Admin TopAlts @ discord.gg/xEaY4kEJNW",
+      "Admin TopAlts @ .gg/xEaY4kEJNW",
       "Du ma im back guys"
   ];
 
