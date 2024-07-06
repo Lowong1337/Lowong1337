@@ -26,8 +26,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   const strings = [
-      "Admin TopAlts @ .gg/xEaY4kEJNW",
-      "Du ma im back guys"
+    "I'd love to bring her to school",
+    "ur the reason that..."
   ];
 
   function shuffleArray(array) {
