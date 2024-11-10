@@ -26,8 +26,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   const strings = [
-    "I'd love to bring her to school",
-    "ur the reason that..."
+    "Pretend to be normal",
+    "But couldnt hold that",
+    "Then whats the point?"
   ];
 
   function shuffleArray(array) {

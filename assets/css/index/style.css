@@ -91,7 +91,7 @@ body {
     position: relative;
     width: 300px;
     overflow: hidden;
-    transform: translateY(-50px) translateX(85px);
+    transform: translateY(-45px) translateX(85px);
 }
 
 .typed::after {
@@ -123,6 +123,10 @@ body {
      display: none;
  }
 
+ .tag {
+     transform: translateY(-110px);
+ }
+
 .buttons {
     min-width: 300px;
     width: 300px;
@@ -133,7 +137,7 @@ body {
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
 
-    transform: translateY(-84px);
+    transform: translateY(-120px);
 }
 
 a.link {
@@ -161,7 +165,7 @@ a.link {
     justify-content: center;
     align-items: flex-end;
 
-    transform: translateY(-86px);
+    transform: translateY(-60px);
 }
 
 .avatar {
@@ -228,4 +232,9 @@ h7 {
 
 p {
     transform: translateY(-100px);
+}
+
+
+.username {
+    transform: translateY(20px);
 }
